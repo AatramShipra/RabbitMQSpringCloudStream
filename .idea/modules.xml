@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsumerDLQ/ConsumerDLQ.iml" filepath="$PROJECT_DIR$/ConsumerDLQ/ConsumerDLQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consumer-Service/ConsumerService.iml" filepath="$PROJECT_DIR$/Consumer-Service/ConsumerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consumer_2-Service/Consumer_2Service.iml" filepath="$PROJECT_DIR$/Consumer_2-Service/Consumer_2Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Producer-Service/ProducerService.iml" filepath="$PROJECT_DIR$/Producer-Service/ProducerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQ.iml" filepath="$PROJECT_DIR$/RabbitMQ.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+com\app\producerservice\model\Employee.class
+com\app\producerservice\ProducerApplication.class
+com\app\producerservice\controller\EmployeeRegistrationController.class
+com\app\producerservice\event\EmployeeRegSource.class
