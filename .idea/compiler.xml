@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Consumer_2Service" target="1.5" />
-      <module name="ConsumerDLQ" target="1.5" />
-      <module name="ConsumerService" target="1.5" />
-      <module name="ProducerService" target="1.5" />
-      <module name="RabbitMQ" target="1.5" />
+      <module name="Consumer_2Service" target="1.8" />
+      <module name="ConsumerDLQ" target="1.8" />
+      <module name="ConsumerService" target="1.8" />
+      <module name="ProducerService" target="1.8" />
+      <module name="RabbitMQ" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

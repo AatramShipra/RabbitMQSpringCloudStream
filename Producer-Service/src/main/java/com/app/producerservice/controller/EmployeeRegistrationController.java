@@ -17,7 +17,7 @@ public class EmployeeRegistrationController {
 
     @PostMapping
     @ResponseBody
-    public String orderFood(@RequestBody Employee employee){
+    public String EmpReg(@RequestBody Employee employee){
         employeeRegSource.employeeRegistration().send(MessageBuilder.withPayload(employee).build());
         System.out.println(employee.toString());
         return "Employee Registered";

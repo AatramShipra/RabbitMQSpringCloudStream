@@ -22,4 +22,6 @@ public class Consumer2Application {
         }
         System.out.println("Employees Registered by Client Consumer 2" + employee);
     }
+
+
 }
