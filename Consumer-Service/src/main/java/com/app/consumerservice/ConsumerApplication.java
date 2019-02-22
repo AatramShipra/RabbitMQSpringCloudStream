@@ -17,5 +17,8 @@ public class ConsumerApplication {
     @StreamListener(target = EmployeeProcessSource.INPUT)
     public void processRegisterEmployees(String employee){
         System.out.println("Employees Registered by Client Consumer 1 " + employee);
+        /*if (employee.contains("employee")) {
+            System.exit(1);
+        }*/
     }
 }

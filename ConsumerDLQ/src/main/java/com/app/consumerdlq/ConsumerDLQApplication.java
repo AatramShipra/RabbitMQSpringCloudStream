@@ -46,8 +46,8 @@ public class ConsumerDLQApplication {
     private Message attemptToRepair(Message failedMessage) {
         String msgBody=new String(failedMessage.getBody());
         if (msgBody.contains("student")){
-            System.out.println("Repairing Message :"+failedMessage.toString());
             msgBody=msgBody.replace("student","new Employee");
+            System.out.println("Repairing Message :"+msgBody);
             return MessageBuilder.withBody(msgBody.getBytes()).
                              copyHeaders(failedMessage.getMessageProperties()
                             .getHeaders()).build();
